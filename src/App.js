@@ -42,7 +42,7 @@ function App() {
             <Header as='h3'>Loading...</Header>
           </Segment>
         ) : (
-          <Segment>
+          <Segment style={{ marginBottom: '35px' }}>
             <NewsList newsId={newsId} />
           </Segment>
         )}
